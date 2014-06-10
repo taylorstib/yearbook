@@ -50,18 +50,24 @@ body {
       .left:hover > .picture{
          opacity:.5;
          transition: all .3s;
-         -webkit-transform: translateX(-300px) translateY(0px)
+         -webkit-transform: translateX(-300px) translateY(0px);
+         -moz-transform: translateX(-300px) translateY(0px);
+         /*-webkit-transform: scale(1.25);*/
 
       }
       .middle:hover > .picture{
          opacity:.9;
          transition: all .3s;
-         -webkit-transform: translateX(0px) translateY(-300px)
+         -webkit-transform: translateX(0px) translateY(-300px);
+         -moz-transform: translateX(0px) translateY(-300px)
+
       }
       .right:hover > .picture{
          opacity:.5;
          transition: all .3s;
-         -webkit-transform: translateX(300px) translateY(0px)
+         -webkit-transform: translateX(300px) translateY(0px);
+         -moz-transform: translateX(300px) translateY(0px)
+
       }
  /*   var. 1 = #009B95 = rgb(0,155,149)
    var. 2 = #1D7471 = rgb(29,116,113)
