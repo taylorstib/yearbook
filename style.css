@@ -2,7 +2,6 @@ body {
          background-image: url('images/dirty_old_shirt.png');
       }
       .container{
-         /*border: solid black 1px; */
          width: 900px;
          margin:140px auto;
       }
@@ -19,12 +18,11 @@ body {
          border: solid #006561 1px;
          border-radius: 10px;
          display: inline-block;
-         /*overflow: hidden;*/
       }
       .description {
          z-index: -1;
          position: absolute;
-         font-family: 'Source Sans Pro', sans-serif;
+         font-family: calibri, sans-serif;
       }
       .description p , .description h1{
          width: 240px;
@@ -50,22 +48,22 @@ body {
       .left:hover > .picture{
          opacity:.5;
          transition: all .3s;
-         -webkit-transform: translateX(-300px) translateY(0px)
+         -webkit-transform: translateX(-300px) translateY(0px);
+         -moz-transform: translateX(-300px) translateY(0px);
+         /*-webkit-transform: scale(1.25);*/
 
       }
       .middle:hover > .picture{
          opacity:.9;
          transition: all .3s;
-         -webkit-transform: translateX(0px) translateY(-300px)
+         -webkit-transform: translateX(0px) translateY(-300px);
+         -moz-transform: translateX(0px) translateY(-300px)
+
       }
       .right:hover > .picture{
          opacity:.5;
          transition: all .3s;
-         -webkit-transform: translateX(300px) translateY(0px)
+         -webkit-transform: translateX(300px) translateY(0px);
+         -moz-transform: translateX(300px) translateY(0px)
+
       }
- /*   var. 1 = #009B95 = rgb(0,155,149)
-   var. 2 = #1D7471 = rgb(29,116,113)
-   var. 3 = #006561 = rgb(0,101,97)
-   var. 4 = #33CDC7 = rgb(51,205,199)
-   var. 5 = #5CCDC9 = rgb(92,205,201)*/
-         
