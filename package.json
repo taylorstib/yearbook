@@ -1,0 +1,27 @@
+{
+  "name": "yearbook",
+  "version": "0.0.1",
+  "description": "SOMEOMEMEOEMFSKNS",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-minify-html": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylorstib/yearbook.git"
+  },
+  "author": "Taylor Stib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorstib/yearbook/issues"
+  },
+  "homepage": "https://github.com/taylorstib/yearbook"
+}
